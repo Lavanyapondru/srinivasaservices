@@ -1,3 +1,4 @@
+// import Footer from "../Components/Footer";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import Priceplan from "../Components/Priceplan";
@@ -8,6 +9,7 @@ function Pricing() {
             <Navbar/>
             <Priceplan/>
             <Footer/>
+            
         </div>
      );
 }
