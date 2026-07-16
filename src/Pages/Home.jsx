@@ -20,6 +20,7 @@ function Home() {
             <Contactus/>
            
             <Footer/>
+            
         </div>
      );
 }

@@ -1,7 +1,8 @@
 import Aboutus from "../Components/Aboutus";
+import Footer from "../Components/Footer";
 
 import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer"
+// import Footer from "../Components/Footer"
 
 function About() {
     return ( 
@@ -9,6 +10,7 @@ function About() {
             <Navbar/>
             <Aboutus/>
             <Footer/>
+            
         </div>
      );
 }
