@@ -1,0 +1,232 @@
+.navbar {
+    background-color: rgba(247, 247, 252, 0.83);
+}
+.navbar-brand:hover {
+    /* color: rgb(224, 178, 51) !important; */
+    transform: scale(1.1);
+}
+.nav-link  {
+color: black !important;
+font-weight: 400;
+transition: 0.3s ease;
+}
+.nav-link:hover{
+  color: rgb(245, 200, 88) !important;
+  transform: scale(1.2);
+}
+.nav-icon {
+  color: black !important;
+}
+.nav-icon:hover {
+    color: rgb(245, 200, 88) !important;
+}
+.collapse {
+    margin-left: 300px !important;
+}
+.container {
+    margin: auto;
+    width: 80%;
+}
+.navbar-brand span {
+  line-height: 1.1; 
+}
+.about {
+  padding-top: 150px;
+}
+.aboutmore{
+  padding-top: 60px;
+}
+body {
+  background-image: url("/bg.png") !important;
+  background-position: center !important;
+  background-size: cover !important;
+  height: 100vh !important;
+}
+.weight {
+  font-weight: 350;
+}
+.weight1{
+  font-weight: 550;
+}
+.weight1:hover{
+  color: orange;
+}
+.weight2 {
+  font-weight: 450;
+}
+.btn:hover {
+  background-color: white !important;
+  color: black !important;
+  border: 2px solid orange;
+}
+.more {
+  background-color: #fff; 
+  padding: 20px;
+  border: 1px solid black;
+
+  border-radius: 30px;
+  margin: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.more h2 {
+  color: rgb(249, 205, 6); 
+  transition: color 0.3s ease;
+}
+
+.more:hover {
+  border: none;
+  background-color: orange;
+  transform: scale(1.1);
+
+}
+
+.more:hover h2 {
+  color: rgb(16, 15, 15); 
+}
+.more:hover p {
+  color: rgb(255, 253, 253); 
+}
+
+
+body {
+  background: white;
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 14px;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 80vh;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgba(250, 247, 247, 0.14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pricingtext {
+  padding-top: 80px !important;
+}
+.pricing {
+  width: 350px;
+  background: white;
+  padding: 10px 5px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+  transition:all 0.3s !important;
+  border-radius: 10px !important;
+}
+.pricing:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.plans {
+  margin: 20px;
+}
+.bgclrf {
+  background-color: rgb(238, 205, 143);
+}
+.ds {
+  margin-top: 90px;
+}
+.is {
+  margin-top: 90px;
+}
+.contact {
+  padding-top: 120px;
+}
+.dservices {
+  padding-top: 80px !important;
+}
+.iservices {
+  padding-top: 80px !important;
+}
+
+.contact para:hover {
+  color: orange;
+}
+.contact p a:hover {
+  color: orange !important;
+}
+.contact-section{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+}
+
+.contact-img{
+    width:220px;
+}
+
+.form-input{
+    height:55px;
+    border:2px solid #ddd;
+    border-radius:8px;
+    box-shadow:none;
+}
+
+.form-input:focus{
+    border-color:#dc3545;
+    box-shadow:none;
+}
+.form-control {
+  border: 1px solid red;
+}
+textarea.form-input{
+    height:170px;
+    resize:none;
+    padding-top:15px;
+}
+
+.btn-danger{
+    font-size:20px;
+    border-radius:6px;
+}
+.flink:hover {
+  color: orangered !important;
+}
+.map {
+  border-radius: 10px;
+}
+.counter-section{
+    padding:20px 0px;
+}
+.counter-section h2 {
+  font-weight: 500 !important;
+}
+
+.icon{
+    font-size:60px;
+    color:#2d2d2d;
+    margin-bottom:20px;
+}
+
+.counter-section h2{
+    font-size:55px;
+    color:#d64b3b;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.counter-section p{
+    font-size:22px;
+    font-weight:600;
+    color:#333;
+}
