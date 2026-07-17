@@ -1,8 +1,7 @@
 .navbar {
-    background-color: rgba(247, 247, 252, 0.83);
+    background-color: rgba(218, 218, 247, 0.83);
 }
 .navbar-brand:hover {
-    /* color: rgb(224, 178, 51) !important; */
     transform: scale(1.1);
 }
 .nav-link  {
@@ -20,9 +19,10 @@ transition: 0.3s ease;
 .nav-icon:hover {
     color: rgb(245, 200, 88) !important;
 }
-.collapse {
+.navbar-nav {
     margin-left: 300px !important;
 }
+
 .container {
     margin: auto;
     width: 80%;
@@ -63,7 +63,6 @@ body {
   background-color: #fff; 
   padding: 20px;
   border: 1px solid black;
-
   border-radius: 30px;
   margin: 8px;
   transition: background-color 0.3s ease;
@@ -104,7 +103,7 @@ body {
 
 .swiper {
   width: 100%;
-  height: 80vh;
+  height: 110vh;
 }
 
 .swiper-slide {
@@ -122,6 +121,7 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
 .pricingtext {
   padding-top: 80px !important;
 }
@@ -208,7 +208,7 @@ textarea.form-input{
 .counter-section{
     padding:20px 0px;
 }
-.counter-section h2 {
+.counter-section h3 {
   font-weight: 500 !important;
 }
 
@@ -218,7 +218,7 @@ textarea.form-input{
     margin-bottom:20px;
 }
 
-.counter-section h2{
+.counter-section h3{
     font-size:55px;
     color:#d64b3b;
     font-weight:700;
@@ -229,4 +229,41 @@ textarea.form-input{
     font-size:22px;
     font-weight:600;
     color:#333;
+}
+@media screen and (min-width:320px) and (max-width:460px) {
+  .navbar-nav {
+    margin-left: 0px !important;
+}
+.map {
+  width: 100% !important;
+}
+.iservices p {
+  font-size: 15px !important;
+}
+.dservices p {
+  font-size: 15px !important;
+}
+.weight {
+  font-weight: 350px !important;
+}
+.weight1{
+  font-weight:bold !important;
+}
+.weight1:hover{
+  color: orange !important;
+}
+.weight2 {
+  font-weight: 450 !important;
+}
+.card{
+  width: 100% !important;
+}
+.swiper {
+  width: 100% !important;
+  height: 60vh !important;
+}
+.more:hover {
+  margin: 20px !important;
+}
+
 }

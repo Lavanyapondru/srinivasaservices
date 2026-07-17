@@ -3,7 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import { FreeMode, Pagination } from 'swiper/modules';
+import { FreeMode, Pagination} from 'swiper/modules';
+import {Autoplay } from 'swiper/modules';
 
 
 
@@ -13,19 +14,23 @@ function Priceplan() {
             <div className="container">
                 <div className="pricingtext">
                     <h1 className='mt-5 mb-5 text-center'>Pricing</h1>
-                    <div className="plan">
+                    <div className="plan row">
                          <Swiper
         slidesPerView={3}
         spaceBetween={30}
         freeMode={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[FreeMode, Pagination]}
+        pagination={{ clickable: true, dynamicBullets: true }}
+  autoplay={{ delay: 3000, disableOnInteraction: false }}
+  modules={[FreeMode, Pagination, Autoplay]}
         className="mySwiper"
+        breakpoints={{
+    320: { slidesPerView: 1, spaceBetween: 10 },
+    768: { slidesPerView: 2, spaceBetween: 20 },
+    1024: { slidesPerView: 3, spaceBetween: 30 },
+  }}
       >
         <SwiperSlide>
-            <div className="plans">
+            <div className="plans ">
                 <div className="card pricing text-center">
                          <div className="card-body">
                            <h5 className="card-title mb-4">Basic Plan</h5>

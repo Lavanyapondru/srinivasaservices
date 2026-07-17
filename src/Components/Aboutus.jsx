@@ -4,14 +4,14 @@ function Aboutus() {
             <div className="bgimg">
               <div className="container">
                 <div className="about">
-                    <div className="row">
+                    <div className="row justify-content-center align-items-center">
                         <div className="col-lg-6 abtext mt-3">
                         <h1 className="display-4 lh-1 mb-4 weight">A trusted provider of <span className="weight1">courier services</span>.</h1>
                         <p className="fs-4 mb-4">We deliver your products safely to<br/>your home in a reasonable time.</p>
                         <button className="btn btn-warning fs-5 me-3 weight2">Get Started <i class="bi bi-arrow-right"></i></button> 
                         </div>
                         <div className="col-lg-6">
-                            <div className="aboutimg">
+                            <div className="aboutimg pt-3">
                                 <img src="/about.png" className="w-100"/>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ function Aboutus() {
                             </div>
                             
                         </div>
-                         <a href='https://wa.me/919652735720' target='_blank'><button className="btn btn-warning fs-5 mt-5  button" type="button">Explore More</button> </a>
+                         <a href='https://wa.me/919652735720' target='_blank'><button className="btn btn-warning fs-5 mt-3 mb-3  button" type="button">Explore More</button> </a>
 
                         </div>
                         </div>
