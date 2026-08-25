@@ -61,7 +61,7 @@ function Footer() {
             </p>
 
             <p class="text-dark fs-5">
-                Developed by <a href="https://nivsee.com/" target="_blank" className="flink fs-5 text-decoration-none text-dark">Nivsee Technologies</a>
+                Developed by <a href="https://lavanya-portrfolio.vercel.app/" target="_blank" className="flink fs-5 text-decoration-none text-dark">Lavanya Pondru</a>
             </p>
         </div>
 
